@@ -1,0 +1,7 @@
+# export the particle pick job in cryosparc
+# Go to the export > Job folder with job#_particles_exported.cs
+# activate the conda base env as pyem is installed in conda base and export the particles coordinate
+csparc2star.py /export/folder/job#_particles_exported.cs /job/folder/J#_passthrough_particles.cs particles.star
+
+# check the particles.star heading
+less particles.star
